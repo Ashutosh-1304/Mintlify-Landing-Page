@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --text-white:rgb(255,255,255);
+}
+body{
+    background-color: #08090A;
+    font-family: 'Inter', sans-serif;
+    
+}
+.bg-wrapper{
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    inset:0;
+}
+.bg-wrapper img {
+  width: 100%;
+  height: 1215px;
+  object-fit: cover;
+  filter: blur(0px);        
+}
+nav{
+    display: flex;
+    margin-right:232px;
+    margin-left: 232px;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color: transparent;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 65px;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 168px;
+}
+.nav-logo p{
+    color: var(--text-white);
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-mid{
+    display: flex;
+    gap:4px;
+    color:var(--text-white);
+    margin-right: 54px;
+    
+}
+.nav-mid button{
+    height: 32px;
+    padding:4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    background-color: transparent;
+    color:var(--text-white);
+    font-size:15px;
+    line-height: 23px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-mid button:hover{
+    background-color: #192548;
+    
+}
+.nav-end-btn-1{
+    height: 32px;
+    padding:4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    background-color: #0F1629;
+    color:var(--text-white);
+    font-size:15px;
+    line-height: 23px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-end-btn-2{
+    height: 32px;
+    padding:4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: none;
+    background-color: var(--text-white);
+    font-size:15px;
+    line-height: 23px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-end-btn-2:hover{
+    background-color: rgba(255, 255, 255, 0.805);
+}
+
+.features-head{
+    margin-right:248px;
+    margin-left: 248px;
+    height: 204px;
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#AFAEB0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+}
+.features-head-heading{
+    color:var(--text-white);
+    font-size: 40px;
+    line-height: 44px;
+}
