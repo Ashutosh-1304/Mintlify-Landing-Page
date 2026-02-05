@@ -15,7 +15,7 @@ body{
 }
 .bg-wrapper{
     position: absolute;
-    z-index: -1;
+    z-index: 0;
     pointer-events: none;
     inset:0;
 }
@@ -33,9 +33,11 @@ nav{
     position: sticky;
     top:0;
     background-color: transparent;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.2);
     height: 65px;
+    z-index: 10;
 }
 .nav-logo{
     display: flex;
