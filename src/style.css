@@ -27,20 +27,16 @@ body{
 }
 nav{
     display: flex;
-    margin-right:232px;
-    margin-left: 232px;
+    padding-right:232px;
+    padding-left: 232px;
     align-items: center;
     position: sticky;
     top:0;
     background: rgba(8, 9, 10, 0.1);
     backdrop-filter: blur(12px) saturate(1.8);
     -webkit-backdrop-filter: blur(12px) saturate(1.8);
-    will-change: backdrop-filter;
-    transform: translateZ(0);
-    -webkit-transform: translateZ(0);
     height: 65px;
     z-index: 1000;
-/* testing */
 
 }
 .nav-logo{
@@ -117,7 +113,11 @@ nav{
 .nav-end-btn-2:hover{
     background-color: rgba(255, 255, 255, 0.805);
 }
-
+.hero-img{
+    margin-left: 223px;
+    margin-bottom: -4px;
+    border-radius: 30px 30px 0px 0px;
+}
 .features-head{
     margin-right:248px;
     margin-left: 248px;
