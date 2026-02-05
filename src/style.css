@@ -75,6 +75,10 @@ nav{
     background-color: #192548;
     
 }
+.nav-end{
+    display: flex;
+    gap:8px;
+}
 .nav-end-btn-1{
     height: 32px;
     padding:4px;
