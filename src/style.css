@@ -32,10 +32,12 @@ nav{
     align-items: center;
     position: sticky;
     top:0;
-    background-color: transparent;
+    background-color: rgba(8, 9, 10, 0.7);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
+    will-change: backdrop-filter;
     height: 65px;
+    z-index: 1000;
 }
 .nav-logo{
     display: flex;
