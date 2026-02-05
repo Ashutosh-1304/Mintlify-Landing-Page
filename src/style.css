@@ -40,6 +40,8 @@ nav{
     -webkit-transform: translateZ(0);
     height: 65px;
     z-index: 1000;
+/* testing */
+
 }
 .nav-logo{
     display: flex;
