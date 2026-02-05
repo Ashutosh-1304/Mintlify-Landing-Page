@@ -32,7 +32,7 @@ nav{
     align-items: center;
     position: sticky;
     top:0;
-    background-color: rgba(8, 9, 10, 0.7);
+    background-color: rgba(8, 9, 10, 0.05);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     will-change: backdrop-filter;
