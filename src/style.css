@@ -15,7 +15,7 @@ body{
 }
 .bg-wrapper{
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     pointer-events: none;
     inset:0;
 }
@@ -32,7 +32,7 @@ nav{
     align-items: center;
     position: sticky;
     top:0;
-    background-color: rgba(8, 9, 10, 0.1);
+    background: rgba(8, 9, 10, 0.1);
     backdrop-filter: blur(12px) saturate(1.8);
     -webkit-backdrop-filter: blur(12px) saturate(1.8);
     will-change: backdrop-filter;
