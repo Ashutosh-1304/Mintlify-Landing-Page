@@ -420,3 +420,61 @@ input[type=text]
     display: flex;
     justify-content: center;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #151616;
+}
+.footer-1{
+    border: 2px solid;
+    border-color: #424242;
+}
+.footer-2{
+    border: 2px solid;
+    border-top-style: none;
+    border-color: #424242;
+    display: flex;
+    width: 1022px;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-white);
+    padding-left: 32px;
+    padding-top: 48px;
+    padding-bottom: 72px;
+}
+.footer-2-sub{
+    width: 191px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-2-sub p{
+    padding:6px;
+}
+.footer-2-heading{
+    color: #AFAEB0;
+    font-size: 13px;
+}
+.footer-3{
+    border: 2px solid;
+    border-color: #424242;
+    border-top-style: none;
+    width: 1022px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-white);
+}
+.footer-3 p{
+    padding-left: 32px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    padding-right: 20px;
+}
+.footer-4{
+    border: 2px solid;
+    border-color: #424242;
+    border-top-style: none;
+}
