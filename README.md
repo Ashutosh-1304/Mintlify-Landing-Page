@@ -165,6 +165,6 @@ The primary goal was to replicate the **desktop UI and visual styling** of the M
 
 ## 📎 Disclaimer
 
-This project is created **for educational purposes only**.
+This project is created for educational purposes only.
 
 All design inspiration belongs to **Mintlify**. No commercial use is intended.
